@@ -5,35 +5,40 @@
 
 .App-header {
   background-color: #282c34;
+  font-family: Lucida Sans;
   min-height: 10vh;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-
 .board {
-  background-color: pink;
+  padding: 10px;
   height: 50vh;
-  width: 80vw;
+  width: 60vw;
   margin: 0 auto;
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(5, 1fr) ; 
- 
 }
 
 .box {
-  border: 1px solid green;
-  background-color: papayawhip;
-  color: black;
+  border: 1px solid rgba(119, 209, 194, 0.52);
+  /* background-color: pink; */
+  background-color: rgba(204, 204, 204, 0.753);
   border-radius: 10px;
   padding: 10px;
   font-size: 100%;
+  color: #000;
+  
 }
 
-.box:nth-child(even) {
-  background-color: #ccc;
-  color: #000;
-}
+button {
+      font-size: 200%;
+      appearance: none;
+      border: none;
+      background: none;
+      height: 100%;
+      width: 100%;
+    }
