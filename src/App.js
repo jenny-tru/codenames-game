@@ -2,24 +2,24 @@ import React from 'react';
 import './App.css';
 
 function App() {
-  
+  var cards = [];
+  for (var i = 0; i < 25; i++) {
+    cards.push(
+      <div className="box">
+      <button>(ఠ ͟ಠ)</button>
+      </div>);
+  } 
+
   
   return (
     <div className="App">
       <header className="App-header">
-        <p>CodeNames Game</p>
+        <p>Let's Play CodeNames!</p>
       </header>
       <div className='board'>
-      <div class="box">1</div>
-      <div class="box">2</div>
-      <div class="box">3</div>
-      <div class="box">4</div>
-      <div class="box">5</div>
-      <div class="box">6</div>
+      {cards}
       </div>
-    </div>
-   
-    
+    </div> 
   );
 }
 
