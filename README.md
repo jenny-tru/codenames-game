@@ -1,4 +1,4 @@
-# This is a board game worth playing with a group of 2+ people!
+# This is a 'board game' worth playing with a group of 2+ people!
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
