@@ -30,11 +30,7 @@ function App() {
       </button>
       </div>);
   } 
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> 5550dab0f211899f1d68acf209ca3eeecdc05b7a
   return (
     <div className="App">
       <header className="App-header">
