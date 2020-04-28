@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 
 function App() {
+  // creates the board of 25 cards
   var cards = [];
   for (var i = 0; i < 25; i++) {
     cards.push(
