@@ -1,6 +1,7 @@
 # This is a board game worth playing with a group of 2+ people!
 #### Instructions include splitting up in two teams (Red and Blue),
-#### Each team will then choose their Spymaster to view the color coded card to lead your team to victory.
+#### Each team will then choose their Spymaster to view the color coded card to lead your team to victory (only one spymaster per team)
+#### Spymasters will have the job of selecting one word as a clue and then stating the number of how many cards this clue is for on the board of words.
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
