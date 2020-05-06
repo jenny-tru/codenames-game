@@ -24,7 +24,7 @@ function App() {
       <div className="box">
       <button
           onClick={() => {
-            dispatch({ type: 'update', view: "passenger" });
+            dispatch({ type: 'update', view: "cardcolor" });
           }}>
             (ఠ ͟ಠ)
       </button>
