@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import '/team.py';
 
 //this updates the card color
 function viewChange(state, event) {
