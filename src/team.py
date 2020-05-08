@@ -12,6 +12,7 @@ if __name__ == '__main__':
     with open(leaders_txt, 'r') as f:
         leaders = [x.rstrip() for x in f]
 
+    # there are 2 teams: red and blue
     red_leader, blue_leader = random.sample(leaders, 2)
 
     with open(players_txt, 'r') as f:
