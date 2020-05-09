@@ -21,7 +21,7 @@ if __name__ == '__main__':
     players = [x for x in players if x != red_leader and x != blue_leader]
 
     if len(players) < 2:
-        print('You need at least two non-leaders in order to play Codenames.')
+        print('You need at least two players in order to play Codenames.')
         exit(2)
 
     random.shuffle(players)
