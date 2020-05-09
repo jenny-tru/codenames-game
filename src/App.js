@@ -1,6 +1,6 @@
-import React from 'react';
+import React, {useReducer} from 'react';
 import './App.css';
-import '/team.py';
+import './team.py';
 
 //this updates the card color
 function viewChange(state, event) {
@@ -20,6 +20,7 @@ function viewChange(state, event) {
 function App() {
   // creates the board of 25 cards
   var cards = [];
+  const [state, dispatch] = useReducer(viewChange, { view: null });
   for (var i = 0; i < 25; i++) {
     cards.push(
       <div className="box">
