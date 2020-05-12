@@ -41,6 +41,10 @@ function App() {
       <div className='board'>
       {cards}
       </div>
+      <div className="team">
+        <button> Blue Team </button>
+        <button> Red Team </button>
+      </div>
     </div> 
   );
 }
