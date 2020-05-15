@@ -24,7 +24,7 @@ function App() {
   for (var i = 0; i < 25; i++) {
     cards.push(
       <div className="box">
-      <button
+      <button className="board-button"
           onClick={() => {
             dispatch({ type: 'update', view: "cardcolor" });
           }}>
@@ -38,12 +38,14 @@ function App() {
       <header className="App-header">
         <p>Let's Play CodeNames!</p>
       </header>
+      
       <div className='board'>
       {cards}
       </div>
+
       <div className="team">
-        <button> Blue Team </button>
-        <button> Red Team </button>
+        <button className="team-button"> Blue Team </button>
+        <button className="team-button"> Red Team </button>
       </div>
     </div> 
   );
