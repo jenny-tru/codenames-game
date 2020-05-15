@@ -34,21 +34,22 @@
   
 }
 
-button {
-      font-size: 200%;
-      appearance: none;
-      border: none;
-      background: none;
-      height: 100%;
-      width: 100%;
-      display: flex;
-      flex-direction: row;
-    }
+.board-button {
+    font-size: 200%;
+    appearance: none;
+    border: none;
+    background: none;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
  
   .team {
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    padding:0;
-    background-color: pink;
-
+    padding: 0;
+  
     }
