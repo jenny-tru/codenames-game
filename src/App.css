@@ -44,4 +44,11 @@ button {
       display: flex;
       flex-direction: row;
     }
+ 
+  .team {
+    display: flex;
+    justify-content: center;
+    padding:0;
+    background-color: pink;
 
+    }
