@@ -47,6 +47,7 @@
   }
  
   .team {
+    /* center vertically + horizontally with flexbox! */
     display: flex;
     flex-direction: row;
     justify-content: center;
